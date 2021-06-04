@@ -20,6 +20,6 @@ Python files using APA102 - https://pypi.org/project/apa102/
 
 Quick start:
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ./toucan.py
 ```
