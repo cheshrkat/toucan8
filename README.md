@@ -18,7 +18,8 @@ Files for running a [Little Bird Electronics](https://www.littlebird.com.au/prod
 
 Python files using APA102 - https://pypi.org/project/apa102/
 
-You may need to install APA102 with the user flag:
+Quick start:
 ```bash
-python3 -m pip install apa102 --upgrade --user
+pip install -r requirements.txt
+./toucan.py
 ```
