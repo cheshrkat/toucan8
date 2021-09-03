@@ -9,15 +9,16 @@ try:
     # Initialise lights with APA210
     lights = APA102(8, 23, 24, brightness=0.1)
 
-    print("Toucan: setting pixels to ROYGBIV+white.")
-    lights.set_pixel(0, 255, 0, 0)
-    lights.set_pixel(1, 255, 165, 0)
-    lights.set_pixel(2, 255, 255, 0)
-    lights.set_pixel(3, 0, 128, 0)
-    lights.set_pixel(4, 0, 0, 255)
-    lights.set_pixel(5, 75, 0, 130)
-    lights.set_pixel(6, 238, 130, 238)
-    lights.set_pixel(7, 255, 255, 255)
+    print("Toucan: setting pixels to rainbow.")
+    # ROYGBIV plus OG pride pink to make up 8
+    lights.set_pixel(0, 97, 45, 71)
+    lights.set_pixel(1, 255, 0, 0)
+    lights.set_pixel(2, 255, 165, 0)
+    lights.set_pixel(3, 255, 255, 0)
+    lights.set_pixel(4, 0, 128, 0)
+    lights.set_pixel(5, 0, 0, 255)
+    lights.set_pixel(6, 75, 0, 130)
+    lights.set_pixel(7, 238, 130, 238)
 
     print("Toucan: calling show() to update the Toucan with the pixels we just set")
     lights.show()

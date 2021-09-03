@@ -4,8 +4,6 @@ import time
 
 try:
     lights = toucan.setup()
-    toucan.fadeUp(lights)
-    toucan.fadeDown(lights)
     toucan.lightsOut(lights)
 
 except Exception as e:
